@@ -1,0 +1,161 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Corben&display=swap');
+</style>
+
+body {
+	font-size: 20px;
+	font-family: 'Corben';
+	text-align: center;
+	line-height: 1.2;
+	padding: 20px;
+}
+
+nav	{
+	text-align: center;
+	font-size: 36px;
+	font-style: bold;
+	background-color: yellow;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.5em;
+	color: Black;
+	background-color: green;
+	padding: 18px;
+}
+
+h2 {
+	font-size: 2.2em;
+	background-color: grey;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+main, p, footer {
+
+	text-align: center;
+}
+
+ul, li {
+
+	text-align: left;
+}
+
+ul {
+	font-size: 19px;
+	font-family: 'Corben';
+	margin-left: 10%;
+}
+
+main {
+	font-family: 'Corben';
+}
+
+p {
+	font-family: 'Corben';
+	font-size: 20px;
+	line-height: 1em;
+	margin: 1.2em;
+}
+
+img {
+	display: block;
+	margin:  0 auto;
+}
+
+ul {
+	list-style type: circle;
+	margin: 1.5em;
+	padding: 6;
+}
+
+li {
+	margin: 20px;
+	line-height: 1em;
+}
+
+footer {
+	border: 1px black soild;
+	padding: 15px;
+	background-color: #545454;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black soild;
+	padding: 15px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black soild;
+	padding: 15px;
+}
+
+aside {
+	background-color: #FFED74;
+	border: 1px black soild;
+	padding: 15px;
+}
+
+article {
+	background-color: #FFED74;
+	border: 1px black soild;
+	padding: 15px;
+}
+
+footer {
+	background-color: green;
+	border: 1px black soild;
+	padding: 15px;
+}
+
+div {
+	background-color: #E8C66A;
+	border: 1px black soild;
+	padding: 15px;
+}
+
+section {
+	background-color: #E8C66A;
+	border: 1px black soild;
+	padding: 15px;
+}
+
+#two_colum {
+	background-color: #FFB7CF;
+	border: 1px black soild;
+	padding: 20px;
+}
+
+#left {
+	background-color: #FFED74;
+	border: 1px black soild;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #FFED74;
+	border: 1px black soild;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
